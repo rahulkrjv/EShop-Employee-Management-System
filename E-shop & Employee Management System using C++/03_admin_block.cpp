@@ -30,7 +30,7 @@ int admin::adminLogIn()
     cout << "\n____________________________________________________________\n";
     cout << "\n-------------------------- Log In --------------------------\n"
          << endl;
-    cout << "\nUserid:\t";
+    cout << "\nUserID:\t";
     getline(cin >> ws, t1);
     cout << "\nPassword:\t";
     getline(cin >> ws, t2);
