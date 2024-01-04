@@ -12,6 +12,7 @@ private:
     string email_id;
     string address;
 
+
 public:
     reg()
     {
@@ -20,7 +21,7 @@ public:
 
     void getdata()
     {
-        cout << "\nEnter user id:\t";
+        cout << "\nEnter user ID:\t";
         getline(cin, user_id);
         cout << "\nEnter Password:\t";
         getline(cin, password);
@@ -28,11 +29,11 @@ public:
         getline(cin, fname);
         cout << "\nEnter your Last Name:\t";
         getline(cin, lname);
-        cout << "\nEnter phone no.:\t";
+        cout << "\nEnter Phone No.:\t";
         getline(cin, phone_no);
         cout << "\nEnter Email-id:\t";
         getline(cin, email_id);
-        cout << "\nEnter address:\t";
+        cout << "\nEnter Address:\t";
         getline(cin, address);
     }
 

@@ -30,7 +30,7 @@ public:
         cout << "\n____________________________________________________________\n";
         cout << "\n-------------------------- Log In --------------------------\n"
              << endl;
-        cout << "\nUser id:\t";
+        cout << "\nUser ID:\t";
         getline(cin >> ws, temp_id);
         cout << "\nPassword:\t";
         getline(cin >> ws, t_password);

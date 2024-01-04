@@ -20,15 +20,15 @@ public:
     }
     void getdata()
     {
-        cout << "\nEnter item name:\t";
+        cout << "\nEnter item Name:\t";
         getline(cin >> ws, name);
-        cout << "\nEnter item id:\t";
+        cout << "\nEnter item ID:\t";
         getline(cin >> ws, id);
-        cout << "\nEnter item price:\t";
+        cout << "\nEnter item Price:\t";
         getline(cin >> ws, price);
-        cout << "\nEnter item quantity:\t";
+        cout << "\nEnter item Quantity:\t";
         getline(cin >> ws, quantity);
-        cout << "\nEnter item category:\t";
+        cout << "\nEnter item Category:\t";
         getline(cin >> ws, category);
     }
     void putdata()
